@@ -1,0 +1,14 @@
+package com.nobleprog.jbpm;
+
+rule "GuideDecisionTreeExample_0"
+	when 
+		requestData : RequestPojo(credits <= 40, income <= 50000, childrenWithDisabilities == "No", survivingSpouseUnMarried == "Yes")
+	then 
+		requestData.setBenefits( 300 );
+end
+rule "GuideDecisionTreeExample_1"
+	when 
+		requestData : RequestPojo(credits <= 40, income <= 50000, childrenWithDisabilities == "No", survivingSpouse == "No")
+	then 
+		requestData.setBenefits( 600 );
+end

@@ -89,5 +89,25 @@
     "displayName" : "Milestone",
     "icon" : "defaultmilestoneicon.png",
     "category" : "Milestone"
+    ],
+       [
+     "name" : "DecisionTask",
+     "parameters" : [
+       "Language" : new StringDataType(),
+       "Namespace" : new StringDataType(),
+       "Model" : new StringDataType(),
+       "Decision" : new StringDataType()
+     ],
+     "displayName" : "Decision Task",
+     "icon" : "defaultdecisionicon.png",
+     "category" : "Decision tasks"
+   ],
+    [
+    "name" : "EmployerWIH",
+    "parameters" : [
+        "From" : new StringDataType()
+    ],
+    "displayName" : "EmployerWIH",
+    "icon" : "defaultservicenodeicon.png"
     ]
 ]

@@ -17,6 +17,50 @@ public class RequestPojo implements java.io.Serializable {
 	private java.lang.String maritalStatus;
 	private java.lang.String type;
 
+	private java.lang.Integer benefits;
+
+	private java.lang.String childrenUnder18;
+
+	private java.lang.String childrenWithDisabilities;
+
+	private String married;
+
+	private String divorced;
+
+	private java.lang.String survivingSpouse;
+
+	private java.lang.String survivingSpouseUnMarried;
+
+	private java.lang.Integer credits;
+
+	private java.lang.String applicantDisabled;
+
+	private java.lang.Integer unMarriedChildrenAge;
+
+	private java.lang.Integer tax;
+
+	private java.lang.Integer investments;
+
+	private java.lang.Integer loans;
+
+	private java.lang.Integer educationLoan;
+
+	private java.lang.Integer homeLoan;
+
+	private java.lang.Integer personalLoan;
+
+	private java.lang.Integer governmentBondsInvestment;
+
+	private java.lang.Integer taxSavingAccountInvestment;
+
+	private java.lang.Boolean isMarried;
+
+	private java.lang.Boolean hasDisabledChildren;
+
+	private java.lang.Boolean benefitApproved;
+
+	private boolean benefitDeclined;
+
 	public RequestPojo() {
 	}
 
@@ -84,10 +128,204 @@ public class RequestPojo implements java.io.Serializable {
 		this.type = type;
 	}
 
+	public java.lang.Integer getBenefits() {
+		return this.benefits;
+	}
+
+	public void setBenefits(java.lang.Integer benefits) {
+		this.benefits = benefits;
+	}
+
+	public java.lang.String getChildrenUnder18() {
+		return this.childrenUnder18;
+	}
+
+	public void setChildrenUnder18(java.lang.String childrenUnder18) {
+		this.childrenUnder18 = childrenUnder18;
+	}
+
+	public java.lang.String getChildrenWithDisabilities() {
+		return this.childrenWithDisabilities;
+	}
+
+	public void setChildrenWithDisabilities(
+			java.lang.String childrenWithDisabilities) {
+		this.childrenWithDisabilities = childrenWithDisabilities;
+	}
+
+	public java.lang.String getMarried() {
+		return this.married;
+	}
+
+	public void setMarried(java.lang.String married) {
+		this.married = married;
+	}
+
+	public java.lang.String getDivorced() {
+		return this.divorced;
+	}
+
+	public void setDivorced(java.lang.String divorced) {
+		this.divorced = divorced;
+	}
+
+	public java.lang.String getSurvivingSpouse() {
+		return this.survivingSpouse;
+	}
+
+	public void setSurvivingSpouse(java.lang.String survivingSpouse) {
+		this.survivingSpouse = survivingSpouse;
+	}
+
+	public java.lang.String getSurvivingSpouseUnMarried() {
+		return this.survivingSpouseUnMarried;
+	}
+
+	public void setSurvivingSpouseUnMarried(
+			java.lang.String survivingSpouseUnMarried) {
+		this.survivingSpouseUnMarried = survivingSpouseUnMarried;
+	}
+
+	public java.lang.Integer getCredits() {
+		return this.credits;
+	}
+
+	public void setCredits(java.lang.Integer credits) {
+		this.credits = credits;
+	}
+
+	public java.lang.String getApplicantDisabled() {
+		return this.applicantDisabled;
+	}
+
+	public void setApplicantDisabled(java.lang.String applicantDisabled) {
+		this.applicantDisabled = applicantDisabled;
+	}
+
+	public java.lang.Integer getUnMarriedChildrenAge() {
+		return this.unMarriedChildrenAge;
+	}
+
+	public void setUnMarriedChildrenAge(java.lang.Integer unMarriedChildrenAge) {
+		this.unMarriedChildrenAge = unMarriedChildrenAge;
+	}
+
+	public java.lang.Integer getTax() {
+		return this.tax;
+	}
+
+	public void setTax(java.lang.Integer tax) {
+		this.tax = tax;
+	}
+
+	public java.lang.Integer getInvestments() {
+		return this.investments;
+	}
+
+	public void setInvestments(java.lang.Integer investments) {
+		this.investments = investments;
+	}
+
+	public java.lang.Integer getLoans() {
+		return this.loans;
+	}
+
+	public void setLoans(java.lang.Integer loans) {
+		this.loans = loans;
+	}
+
+	public java.lang.Integer getEducationLoan() {
+		return this.educationLoan;
+	}
+
+	public void setEducationLoan(java.lang.Integer educationLoan) {
+		this.educationLoan = educationLoan;
+	}
+
+	public java.lang.Integer getHomeLoan() {
+		return this.homeLoan;
+	}
+
+	public void setHomeLoan(java.lang.Integer homeLoan) {
+		this.homeLoan = homeLoan;
+	}
+
+	public java.lang.Integer getPersonalLoan() {
+		return this.personalLoan;
+	}
+
+	public void setPersonalLoan(java.lang.Integer personalLoan) {
+		this.personalLoan = personalLoan;
+	}
+
+	public java.lang.Integer getGovernmentBondsInvestment() {
+		return this.governmentBondsInvestment;
+	}
+
+	public void setGovernmentBondsInvestment(
+			java.lang.Integer governmentBondsInvestment) {
+		this.governmentBondsInvestment = governmentBondsInvestment;
+	}
+
+	public java.lang.Integer getTaxSavingAccountInvestment() {
+		return this.taxSavingAccountInvestment;
+	}
+
+	public void setTaxSavingAccountInvestment(
+			java.lang.Integer taxSavingAccountInvestment) {
+		this.taxSavingAccountInvestment = taxSavingAccountInvestment;
+	}
+
+	public java.lang.Boolean getIsMarried() {
+		return this.isMarried;
+	}
+
+	public void setIsMarried(java.lang.Boolean isMarried) {
+		this.isMarried = isMarried;
+	}
+
+	public java.lang.Boolean getHasDisabledChildren() {
+		return this.hasDisabledChildren;
+	}
+
+	public void setHasDisabledChildren(java.lang.Boolean hasDisabledChildren) {
+		this.hasDisabledChildren = hasDisabledChildren;
+	}
+
+	public java.lang.Boolean getBenefitApproved() {
+		return this.benefitApproved;
+	}
+
+	public void setBenefitApproved(java.lang.Boolean benefitApproved) {
+		this.benefitApproved = benefitApproved;
+	}
+
+	public boolean isBenefitDeclined() {
+		return this.benefitDeclined;
+	}
+
+	public void setBenefitDeclined(boolean benefitDeclined) {
+		this.benefitDeclined = benefitDeclined;
+	}
+
 	public RequestPojo(long processId, java.lang.String processName,
 			java.lang.String name, java.lang.Integer age,
 			java.lang.String profession, java.lang.Integer income,
-			java.lang.String maritalStatus, java.lang.String type) {
+			java.lang.String maritalStatus, java.lang.String type,
+			java.lang.Integer benefits, java.lang.String childrenUnder18,
+			java.lang.String childrenWithDisabilities,
+			java.lang.String married, java.lang.String divorced,
+			java.lang.String survivingSpouse,
+			java.lang.String survivingSpouseUnMarried,
+			java.lang.Integer credits, java.lang.String applicantDisabled,
+			java.lang.Integer unMarriedChildrenAge, java.lang.Integer tax,
+			java.lang.Integer investments, java.lang.Integer loans,
+			java.lang.Integer educationLoan, java.lang.Integer homeLoan,
+			java.lang.Integer personalLoan,
+			java.lang.Integer governmentBondsInvestment,
+			java.lang.Integer taxSavingAccountInvestment,
+			java.lang.Boolean isMarried, java.lang.Boolean hasDisabledChildren,
+			java.lang.Boolean benefitApproved, boolean benefitDeclined) {
 		this.processId = processId;
 		this.processName = processName;
 		this.name = name;
@@ -96,6 +334,28 @@ public class RequestPojo implements java.io.Serializable {
 		this.income = income;
 		this.maritalStatus = maritalStatus;
 		this.type = type;
+		this.benefits = benefits;
+		this.childrenUnder18 = childrenUnder18;
+		this.childrenWithDisabilities = childrenWithDisabilities;
+		this.married = married;
+		this.divorced = divorced;
+		this.survivingSpouse = survivingSpouse;
+		this.survivingSpouseUnMarried = survivingSpouseUnMarried;
+		this.credits = credits;
+		this.applicantDisabled = applicantDisabled;
+		this.unMarriedChildrenAge = unMarriedChildrenAge;
+		this.tax = tax;
+		this.investments = investments;
+		this.loans = loans;
+		this.educationLoan = educationLoan;
+		this.homeLoan = homeLoan;
+		this.personalLoan = personalLoan;
+		this.governmentBondsInvestment = governmentBondsInvestment;
+		this.taxSavingAccountInvestment = taxSavingAccountInvestment;
+		this.isMarried = isMarried;
+		this.hasDisabledChildren = hasDisabledChildren;
+		this.benefitApproved = benefitApproved;
+		this.benefitDeclined = benefitDeclined;
 	}
 
 }
